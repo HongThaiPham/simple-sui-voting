@@ -1,0 +1,3 @@
+sui client call --package 0x3bb9115f2a08dcaca0b822a2bf95bea2fe81d2703ee3aba23d6fc106908dc0dc --module sui_voting --function create --args 1768291200000 --sender 0x654fcd9c239e3f9115617b21ca9aaa5edacd4b4cdd4f54751955777a799a0a81
+
+sui client call --package 0x3bb9115f2a08dcaca0b822a2bf95bea2fe81d2703ee3aba23d6fc106908dc0dc --module sui_voting --function vote --args 0x9b63d282e5ed945056c799abb8bc61d213faea17c7a88e1caf165ac6f5cea8a9 1 0x6 --sender 0x769dbfedb6391f67b2ccb345f4f9566ce0d06096d3c33f05be7fc0409ecc7ced
